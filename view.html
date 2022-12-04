@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width initial-scale=1.0">
+    <title>Gothic Lair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="view.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    
+    <div class="text-box">
+        <h1>Welcome!</h1>
+        <p>You came to this site for a reason.
+         Here you will find everything to do with Gothic. 
+         From the origins of the gothic subculture to the latest films and series with gothic elements. </p>
+        <a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
+    </div>
+    </section>
+
+    </section>
+
+
+<!---co na tej stronie oferuje-->
+
+<section class="whatweoffer">
+    <h1>What Can You Find on This Website?</h1>
+    <p>On this site you will find both book and film reviews,
+     lifestyle advice and tips and tricks for styling gothic interiors.</p>
+     <div class="row">
+        <div class="content-row">
+            <h3>Books</h3>
+            <p>From Victorian literature to general literature classics,
+                 there is something here for everyone. </p>
+        </div>
+        <div class="content-row">
+            <h3>Movies</h3>
+            <p>
+                Do you like scary movies? Or do you love atmospheric thrillers?
+                 I think you'll find a selection of films to suit your taste.
+            </p>
+        </div>
+        <div class="content-row">
+            <h3>Lifestyle</h3>
+            <p>Have you ever wondered how to dress elegantly and in a gothic style? 
+            Or are you interested in how to do gothic make-up? You'll find it all here!</p>
+        </div>
+</div>
+     
+
+</section>
+
+<!----spolecznosc---->
+
+
+<section class="community">
+    <h1>Our Gothic Community</h1>
+    <p>Readers of this site form a gothic community 
+    where we read books together, watch TV series and share cultural news with gothic elements.</p>
+
+    <div class="row">
+        <div class="community-col">
+            <img src="images/ksiazkijakies.avif" alt="biblioteka">
+            <div class="layer">
+                <h3>Our Library</h3>
+            </div>
+        </div>
+        <div class="community-col">
+            <img src="images/jakieskolumny.avif" alt="wednesday">
+            <div class="layer">
+                <h3>Our Favourite TV Shows</h3>
+        </div>
+    </div>
+    <div class="community-col">
+        <img src="images/kwiatkijaies.avif" alt="movies">
+        <div class="layer">
+            <h3>Our Favourite Movies</h3>
+        </div>
+    </div>
+    
+</section>
+
+<!----nastepna sekcja fantasy recipes-->
+<section class="fantasyrecipes">
+    <h1>Recipes from Fantasy Books</h1>
+    <p>When reading books or watching films, it is good to have some snacks with you. 
+        On this page you will find recipes from some of the most popular fantasy books.</p>
+
+    <div class="row">
+        <div class="recipes-col">
+            <img src="images/gruszka.avif">
+            <h3>Sweet snacks</h3>
+            <p>If you fancy a sweet snack, take a look here. 
+            Here you will find both a recipe for lembas from Lord of the Rings and a caraway cake from The Hobbit.</p>
+        </div>
+        <div class="recipes-col">
+            <img src="images/pomidsy.avif">
+            <h3>Lunch and Dinner</h3>
+            <p>Here you will find the recipe 
+            for Morticia Addams' famous roast or many recipes from the world of the Witcher.</p>
+        </div>
+        <div class="recipes-col">
+            <img src="images/warzwa.avif">
+            <h3>Healthy Snacks</h3>
+            <p>Here you will find recipes for salads and 
+            light soups taken straight from the fantasy world!</p>
+        </div>
+    </div>
+
+</section>
+
+<!---opinie czytelnikow--->
+<section class="testimonials">
+    <h1>What Our Readers Say</h1>
+    <p>Our readers say it's great</p>
+
+
+<div class="row">
+    <div class="testimonial-col">
+        <img src="images/user1.avif">
+        <div>
+            <p>This site is truly wonderful. </p>
+            <h3>Uncle Fester Addams</h3>
+        </div>
+    </div>
+    <div class="testimonial-col">
+        <img src="images/user2.avif">
+        <div>
+            <p>One of the best sites I have ever visited!</p>
+            <h3>FrankieStein123</h3>
+        </div>
+    </div>
+
+</div>
+   
+</section>
+
+<!----following-->
+
+<section class="following">
+    <h1>Follow for more stuff from the gothic world!</h1>
+    <a href="" class="hero-btn">CONTACT AND OTHER MEDIA</a>
+</section>
+
+<!---stopka-->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>I am a fan of the gothic subculture, I love books and films.
+     To find out more - click on the "About" icon in the top menu. </p>
+     
+</section>
+
+<!----JavaScript toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

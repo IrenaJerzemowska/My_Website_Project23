@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width initial-scale=1.0">
+    <title>Gothic Lair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="view.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us
+        </h1>
+        </section>
+
+        <section class="about-us">
+            <div class="row">
+              <div class="about-col" >
+                <h1>We are the weirdos, mister!</h1>
+                <p>Hi, I am the author of this page. I like gothic stuff, especially books and movies. I am also really passionate about music and cooking, so I am sharing those two passions of mine here as well!</p>
+                <a href="" class="hero-btn black-btn">EXPLORE MORE OF THE GOTHIC STUFF</a>
+              </div> 
+              <div class="about-col">
+                <img src="images/gargulec">
+              </div>
+            </div>
+        </section>
+
+
+
+
+        <!-----stopka-->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>I am a fan of the gothic subculture, I love books and films.
+             To find out more - click on the "About" icon in the top menu. </p>
+             
+        </section>
+        
+        <!----JavaScript toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        </body>
+        </html>
